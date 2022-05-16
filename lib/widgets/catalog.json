@@ -1,0 +1,100 @@
+{
+    "products": [
+        {
+            "id" : "c1",
+            "name" : "APPLE iPhone 11",
+            "desc" : "APPLE iPhone 11 (Black, 128 GB)",
+            "price" : 799,
+            "color": "#33505a",
+            "image" : "https://rukminim1.flixcart.com/image/832/832/kgiaykw0/mobile/5/x/8/apple-iphone-11-mhdh3hn-a-original-imafwqepcdfxrmhn.jpeg?q=70"
+        },
+        {
+            "id" : "c2",
+            "name" : "APPLE iPhone SE",
+            "desc" : "APPLE iPhone SE (Red, 64 GB)",
+            "price" : 599,
+            "color": "#00ac51",
+            "image" : "https://rukminim1.flixcart.com/image/832/832/k9loccw0/mobile/6/8/g/apple-iphone-se-mxvv2hn-a-original-imafrcqmfxhcrpsb.jpeg?q=70"
+        },
+        {
+            "id" : "c3",
+            "name" : "APPLE iPhone 13",
+            "desc" : "APPLE iPhone 13 (Starlight, 128 GB)",
+            "price" : 899,
+            "color": "#e0bfae",
+            "image" : "https://rukminim1.flixcart.com/image/832/832/ktketu80/mobile/h/w/1/iphone-13-mlpg3hn-a-apple-original-imag6vpy84hrnjyz.jpeg?q=70"
+        },
+        {
+            "id" : "c4",
+            "name" : "APPLE iPhone 12",
+            "desc" : "APPLE iPhone 12 (Black, 128 GB)",
+            "price" : 699,
+            "color": "#f73984",
+            "image" : "https://rukminim1.flixcart.com/image/832/832/kg8avm80/mobile/r/h/z/apple-iphone-12-dummyapplefsn-original-imafwg8dqgncgbcb.jpeg?q=70"
+        },
+        {
+            "id" : "c5",
+            "name" : "realme c31",
+            "desc" : "realme C31 (Light Silver, 32 GB)  (3 GB RAM)",
+            "price" : 599,
+            "color": "#f73984",
+            "image" : "https://rukminim1.flixcart.com/image/312/312/l1dwknk0/mobile/f/t/x/-original-imagcyj4unsxhadw.jpeg?q=70"
+        },
+        {
+            "id" : "c6",
+            "name" : "realme Narzo 50i",
+            "desc" : "realme Narzo 50i (Carbon Black, 32 GB)  (2 GB RAM)",
+            "price" : 499,
+            "color": "#f73984",
+            "image" : "https://rukminim1.flixcart.com/image/312/312/ktx9si80/mobile/h/b/c/narzo-50i-rmx3231-realme-original-imag75hcyzzggbat.jpeg?q=70"
+        },
+        {
+            "id" : "c7",
+            "name" : "MOTOROLA G60",
+            "desc" : "MOTOROLA G60 (Moonless, 128 GB)  (6 GB RAM)",
+            "price" : 699,
+            "color": "#f73984",
+            "image" : "https://rukminim1.flixcart.com/image/312/312/l0o6nbk0/mobile/y/s/e/-original-imagceu559m75mks.jpeg?q=70"
+        },
+        {
+            "id" : "c8",
+            "name" : "vivo T1 5G",
+            "desc" : "vivo T1 5G (Rainbow Fantasy, 128 GB)  (4 GB RAM)",
+            "price" : 599,
+            "color": "#f73984",
+            "image" : "https://rukminim1.flixcart.com/image/832/832/kzd147k0/mobile/m/c/f/-original-imagbe5qknarjywp.jpeg?q=70"
+        },
+        {
+            "id" : "c9",
+            "name" : "MOTOROLA e40",
+            "desc" : "MOTOROLA e40 (Carbon Gray, 64 GB)  (4 GB RAM)",
+            "price" : 499,
+            "color": "#f73984",
+            "image" : "https://rukminim1.flixcart.com/image/832/832/l1l1rww0/mobile/v/7/n/-original-imagd48zkjwujxzz.jpeg?q=70"
+        },
+        {
+            "id" : "c10",
+            "name" : "realme C35",
+            "desc" : "realme C35 (Glowing Black, 128 GB)  (4 GB RAM)",
+            "price" : 499,
+            "color": "#f73984",
+            "image" : "https://rukminim1.flixcart.com/image/832/832/l0fm07k0/mobile/1/k/g/-original-imagc7ukmgugpdfy.jpeg?q=70"
+        },
+        {
+            "id" : "c11",
+            "name" : "SAMSUNG Galaxy F22",
+            "desc" : "SAMSUNG Galaxy F22 (Denim Blue, 64 GB)  (4 GB RAM)",
+            "price" : 499,
+            "color": "#f73984",
+            "image" : "https://rukminim1.flixcart.com/image/832/832/kqqykcw0/mobile/j/5/7/galaxy-f22-sm-e225flbdins-samsung-original-imag4z99fp4qdfby.jpeg?q=70"
+        },
+        {
+            "id" : "c12",
+            "name" : "POCO C31",
+            "desc" : "POCO C31 (Royal Blue, 64 GB)  (4 GB RAM)",
+            "price" : 399,
+            "color": "#f73984",
+            "image" : "https://rukminim1.flixcart.com/image/832/832/ku4ezrk0/mobile/p/e/4/c31-mzb0a0jin-poco-original-imag7bzqxgdhgf2n.jpeg?q=70"
+        }
+    ]
+}
