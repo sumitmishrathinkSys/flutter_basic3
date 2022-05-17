@@ -9,7 +9,7 @@ class ItemWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
         // color: Colors.greenAccent,
-        shape: StadiumBorder(),
+        // shape: StadiumBorder(),
         child: ListTile(
           onTap: () {
             print("${item.name} pressed");

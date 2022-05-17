@@ -70,13 +70,27 @@ class _LoginPageState extends State<LoginPage> {
                       obscureText: true,
                       decoration: InputDecoration(
                           hintText: "Enter Password", labelText: "Password"),
+                      // validator: (value) {
+                      //   if (value!.isEmpty) {
+                      //     return "Password cannot be empty";
+                      //   } else if (value.length < 6) {
+                      //     return "Password length should be atleast 6";
+                      //   }
+
+                      //   return null;
+                      // },
                       validator: (value) {
+                        RegExp regex = RegExp(
+                            r'^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#\$&*~]).{8,}$');
                         if (value!.isEmpty) {
-                          return "Password cannot be empty";
-                        } else if (value.length < 6) {
-                          return "Password length should be atleast 6";
+                          return 'Please enter password';
+                        } else {
+                          if (!regex.hasMatch(value)) {
+                            return 'Enter valid password. Password must contain one uppercase, lowercase, numeric and special characters';
+                          } else {
+                            return null;
+                          }
                         }
-                        return null;
                       },
                     ),
                     const SizedBox(

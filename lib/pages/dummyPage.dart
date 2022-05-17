@@ -1,42 +1,15 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter2_app/models/catalog.dart';
 import 'package:flutter2_app/widgets/drawer.dart';
 import 'package:flutter2_app/widgets/item_widget.dart';
-import 'package:flutter/services.dart';
 
-class HomePage extends StatefulWidget {
+class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
-
-  @override
-  State<HomePage> createState() => _HomePageState();
-}
-
-class _HomePageState extends State<HomePage> {
   final days = 30;
-
-  final String name = "Flutter";
-
-  @override
-  void initState() {
-    super.initState();
-    loadData();
-  }
-
-  loadData() async {
-    var catalogJson = await rootBundle.loadString("assets/files/catalog.json");
-    // print(catalogJson);
-    final decodedData = jsonDecode(catalogJson);
-    var productData = decodedData["products"];
-    CatalogModel.items =
-        List.from(productData).map<Item>((item) => Item.fromMap(item)).toList();
-    setState(() {});
-  }
-
+  final name = "Flutter";
   @override
   Widget build(BuildContext context) {
+    final dummyList = List.generate(50, (index) => CatalogModel.items[0]);
     return Scaffold(
       appBar: AppBar(
         // backgroundColor: Colors.white,
@@ -51,10 +24,10 @@ class _HomePageState extends State<HomePage> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: ListView.builder(
-          itemCount: CatalogModel.items.length,
+          itemCount: dummyList.length,
           itemBuilder: (context, index) {
             return ItemWidget(
-              item: CatalogModel.items[index],
+              item: dummyList[index],
             );
           },
         ),
