@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   final name = "Flutter";
   @override
   Widget build(BuildContext context) {
-    final dummyList = List.generate(50, (index) => CatalogModel.items[0]);
+    final dummyList = List.generate(50, (index) => CatalogModel.items![0]);
     return Scaffold(
       appBar: AppBar(
         // backgroundColor: Colors.white,
