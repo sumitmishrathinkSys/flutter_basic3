@@ -11,6 +11,13 @@ class CatalogModel {
   //       image:
   //           "https://rukminim1.flixcart.com/image/832/832/kgiaykw0/mobile/5/x/8/apple-iphone-11-mhdh3hn-a-original-imafwqepcdfxrmhn.jpeg?q=70")
   // ];
+
+  // Get Item By Id
+  static getById(int id) =>
+      items?.firstWhere((element) => element.id == id, orElse: null);
+
+  // Get item by Position
+  static getByPosition(int pos) => items![pos];
 }
 
 class Item {
